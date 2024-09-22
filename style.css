@@ -12,28 +12,17 @@
 .skills{
     text-align: center;
     font-family: cursive, Verdana, sans-serif;
-    font-size: 24px;
-    background-color: lightgray;
-    padding: 2px;
-    margin: 20px;
+    
 }
 
 .projects{
     text-align: center;
     font-family: cursive, Verdana, sans-serif;
-    font-size: 24px;
-    background-color: lightgray;
-    padding: 2px;
-    margin: 20px;
 }
 
 .contact{
     text-align: center;
     font-family: cursive, Verdana, sans-serif;
-    font-size: 24px;
-    background-color: lightgray;
-    padding: 2px;
-    margin: 20px;
 }
 
 .body{
@@ -49,4 +38,11 @@
     margin: 5px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+h2{
+    font-size: 24px;
+    background-color: lightgray;
+    padding: 2px;
+    margin: 20px;
 }
