@@ -11,18 +11,18 @@ img {
 .about{
     text-align: center;
     font-family: cursive, Verdana, sans-serif;
-    display:flex;
-    flex-wrap:wrap;
-    margin-right: 100px;
-    margin-left: 100px;
-    justify-content: center;
 }
 
 .about p {
-    width:50%;
+    width:85%;
     text-align: center;
     margin: auto;
     line-height: 125%;
+    background-color: #8A9A5B;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .about img {
