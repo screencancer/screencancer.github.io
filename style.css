@@ -1,6 +1,6 @@
 h2{
     font-size: 24px;
-    background-color: lightgray;
+    background-color: #8A9A5B;
     padding: 10px;
 }
 
@@ -18,7 +18,7 @@ img {
     text-align: center;
     margin: auto;
     line-height: 125%;
-    background-color: #8A9A5B;
+    background-color: #E6FF9C;
 }
 
 .about p {
@@ -26,7 +26,7 @@ img {
     text-align: center;
     margin: auto;
     line-height: 125%;
-    background-color: #8A9A5B;
+    background-color: #E6FF9C;
     display:flex;
     flex-wrap:wrap;
     align-items: center;
@@ -65,7 +65,7 @@ img {
     width: 30%;
     margin: 10px;
     padding: 20px 10px;
-    background: #8A9A5B;
+    background: #E6FF9C;
     border-radius: 25%;
 }
 
