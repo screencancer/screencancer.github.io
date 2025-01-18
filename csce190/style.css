@@ -1,1 +1,97 @@
+h2{
+    font-size: 24px;
+    background-color: #5C663C;
+    padding: 10px;
+}
 
+img {
+    max-width:40%;
+}
+
+.about{
+    text-align: center;
+    font-family: cursive, Verdana, sans-serif;
+}
+
+.skills p{
+    width:85%;
+    text-align: center;
+    margin: auto;
+    line-height: 125%;
+    background-color: #8A9A5B;
+}
+
+.about p {
+    width:85%;
+    text-align: center;
+    margin: auto;
+    line-height: 125%;
+    background-color: #8A9A5B;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.about img {
+    width: 150px;
+    height: 200px;
+    border-radius: 25%;
+    border: 2px solid rgb(126, 14, 201);
+}   
+
+.skills{
+    text-align: center;
+    font-family: cursive, Verdana, sans-serif;
+    padding-bottom: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects{
+    text-align: center;
+    font-family: cursive, Verdana, sans-serif; 
+    flex-wrap:wrap;
+    width: 100%;
+    min-width: 50%;
+}
+
+.project {
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+    margin: 10px;
+    padding: 20px 10px;
+    background: #8A9A5B;
+    border-radius: 25%;
+}
+
+.project h3:hover {
+    color: rgb(0, 119, 255);
+}
+
+.contact{
+    text-align: center;
+    font-family: cursive, Verdana, sans-serif;
+
+    width: 100%;
+    min-width: 50%;
+}
+
+.body{
+    background-color: #2B3314;
+}
+
+.name{
+    text-align: center;
+    font-family: cursive, Verdana, sans-serif;
+    font-size: 34px;
+    background-color: #5C663C;
+    padding: 2px;
+    margin: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
