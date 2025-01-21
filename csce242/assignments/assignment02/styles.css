@@ -1,14 +1,23 @@
 #content {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #577a59;
-  width: 95%;
+  background-color: rgba(87, 122, 89, 0.95);
+  width: 97%;;
   margin: auto;
   padding: 1px 30px;
-  padding-bottom: 30px;
+	padding-bottom: 30px;
+
+	border:10px solid #172d18;
+	
 }
 
-body {
-  background-color: #172d18;
+#background {
+	margin-right: 100px;
+  background: url(images/AmericanAnimals.png);
+}
+
+body{
+	background-color: #172d18;
+	margin-right: 0px;
 }
 
 /* Text */
