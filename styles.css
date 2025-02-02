@@ -71,7 +71,7 @@ a:hover{
     align-items: center;
 }
 
-#information{
+#information, #informationProjects{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,7 +92,9 @@ a:hover{
     .content-section{
         background-color:#1d393c;
         width: 50%;
+        min-width: 70%;
         padding:10px;
+        margin-bottom: 10px;
     }
     
     .divider{
@@ -109,7 +111,7 @@ a:hover{
         align-items: center;
     }
     
-    #information{
+    #information, #informationProjects{
         display: flex;
         justify-content: center;
         align-items: center;
