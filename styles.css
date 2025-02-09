@@ -46,6 +46,10 @@ a:hover{
 }
 
 @media (min-width: 1150px) {
+
+
+
+
 #content-sections{
     display: flex;
     flex-direction: column;
