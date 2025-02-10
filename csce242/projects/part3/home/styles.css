@@ -292,9 +292,6 @@ header {
     padding: 5px;
   }
 
-  .title-empty {
-  }
-
   .column {
     margin: 10px;
     background-color: var(--background-color);
