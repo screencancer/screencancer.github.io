@@ -1,39 +1,91 @@
+:root {
+  --main-section-color: #bbbbbb;
+  --background-color: white;
+  --outside-color: #efefef;
+  --font-color: black;
+  --navbar-color: gray;
+}
+
 * {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#navbar li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: var(--navbar-color);
+  list-style: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar a {
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--outside-color);
+}
+
+#content-section {
+  background-color: var(--background-color);
+  border: var(--main-section-color) 1px solid;
+}
+
+#footer-div {
+  background-color: var(--outside-color);
+  padding-top: 10px;
+  margin-top: 2%;
+}
+
+#plans {
+  display: flex;
+}
+
+.card {
+  border: var(--main-section-color) 1px solid;
+  background-color: var(--background-color);
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.plan img {
+  width: 100%;
+}
+
+.inner-card {
+  padding: 10px;
+}
+
+.inner-card h3 {
+  margin: 10px;
+}
+
 @media (min-width: 900px) {
-  #nav {
-    display: flex;
-    justify-content: space-evenly;
-  }
   #navbar ul {
-    display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-  }
-
-  #navbar li {
-    padding: 10px;
-    background-color: gray;
-    list-style: none;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #navbar a {
-    color: black;
-    text-decoration: none;
-  }
-
-  body {
-    display: flex;
-    flex-direction: column;
-    background-color: #efefef;
   }
 
   #content-section {
@@ -41,73 +93,50 @@
     margin-top: 2%;
     margin-left: 0.5%;
     margin-right: 0.5%;
-    background-color: white;
-    border: #bbbbbb 1px solid;
   }
-  #footer-div {
-    background-color: black;
-    padding: 10px;
-    margin-top: 2%;
-  }
-
-  #plans{
-    display: flex;
-  }
-
-  .card{
-    border: #bbbbbb 1px solid;
-    background-color: white;
-  } 
-
-  .plan{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-  }
-
-  .plan img{
-    width: 100%;
-  }
-
-  .inner-card{
-    padding: 10px;
-  }
-
-  .inner-card h3{
-    margin: 10px;
-  }
-  
 }
 
 @media (max-width: 900px) {
-  #nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  * {
+    justify-content: center;
+    align-items: center;
   }
+
+  header {
+    width: 100%;
+  }
+
   #navbar ul {
-    display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
   }
 
   #navbar li {
-    padding: 10px;
-    background-color: gray;
-    list-style: none;
-    width: 100%;
-    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  body {
     align-items: center;
     justify-content: center;
   }
 
-  #navbar a {
-    color: black;
-    text-decoration: none;
+  main {
+    width: 100%;
   }
 
-  body {
-    background-color: #efefef;
+  #content-section {
+    width: 100%;
+  }
+
+  #plans {
+    margin-top: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .plan {
+    width: 100%;
   }
 }
