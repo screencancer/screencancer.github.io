@@ -11,7 +11,6 @@ menuButton.addEventListener("click", (event) => {
   arrow.classList.toggle("down");
 });
 
-
 document.querySelectorAll(".menu-item").forEach((item, index) => {
   item.addEventListener("click", () => {
     console.log(`Exercise ${index + 1} clicked`);
