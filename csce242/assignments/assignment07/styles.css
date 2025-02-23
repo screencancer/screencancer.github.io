@@ -6,19 +6,19 @@ main {
   display: flex;
 }
 
-.stair{
-    width: 130px;
-    height: auto;
+.stair {
+  width: 130px;
+  height: auto;
 }
 
-#stairs{
-    display: flex;
-    flex-direction: column;
+#stairs {
+  display: flex;
+  flex-direction: column;
 }
 
-#person{
-    margin-top: -150px;
-    position: relative;
+#person {
+  margin-top: -150px;
+  position: relative;
 }
 
 .menu-container button {
