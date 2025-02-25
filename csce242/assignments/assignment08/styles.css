@@ -6,8 +6,8 @@ main {
   display: flex;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 .stair {
@@ -16,7 +16,7 @@ a{
 }
 
 #popup-container.hidden {
-    display: none;
+  display: none;
 }
 
 #stairs {
@@ -30,57 +30,56 @@ a{
 }
 
 #popup-container {
-position: fixed;
-  display: flex; 
+  position: fixed;
+  display: flex;
   flex-direction: row-reverse;
   align-items: baseline;
   justify-content: center;
-  width: 20%; 
+  width: 20%;
   height: 30%;
   padding: 20px;
-  padding-left: -10px;
   top: 50px;
   bottom: 0;
-  background-color: #e7c9a0; 
+  background-color: #e7c9a0;
   z-index: 2;
   box-shadow: red 1rem 1rem 10px;
 }
 
-#popup-container div{
-    margin-top: 12px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 75%;
-    height: 75%;
-    margin-bottom: 50px;
+#popup-container div {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: 75%;
+  margin-bottom: 50px;
 }
 
-#popup-container img{
-    width: 50%;
-    height: auto;
+#popup-container img {
+  width: 50%;
+  height: auto;
 }
 
 #text-container button {
-    background: none;
-    color: inherit;
-    border: none;
-    padding: 5px;
-    font: inherit;
-    cursor: pointer;
-    outline: inherit;
-  }
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 5px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
 
-  #text-container button:hover {
-    background: burlywood;
-    color: inherit;
-    border: none;
-    padding: 5px;
-    font: inherit;
-    cursor: pointer;
-    outline: inherit;
-  }
+#text-container button:hover {
+  background: burlywood;
+  color: inherit;
+  border: none;
+  padding: 5px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
 
 #popup-container button {
   background: none;
@@ -176,6 +175,7 @@ main {
   .menu-button {
     display: none;
   }
+
   #menu {
     display: flex;
   }
@@ -185,14 +185,17 @@ main {
     padding: 10px 20px;
     display: inline-block;
   }
+
   .menu-item::after {
     content: "|";
     position: absolute;
     right: -0.2em;
   }
+
   .menu-item:last-child::after {
     content: none;
   }
+
   .menu-item:hover {
     cursor: pointer;
     background-color: #d4b185;
