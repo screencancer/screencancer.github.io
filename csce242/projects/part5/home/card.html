@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div id="navbar">
+        <nav>
+          <ul>
+            <li><a href="../home/index.html">Home</a></li>
+            <li><a href="../plans/index.html">Plans</a></li>
+            <li><a href="../recent/index.html">Recent</a></li>
+            <li><a href="../account/index.html">Account</a></li>
+            <li><a href="../settings/index.html">Settings</a></li>
+          </ul>
+        </nav>
+      </div>
+      <button class="menu-button"><i class="arrow down"></i></button>
+    </header>
+    <main id="card-main">
+      <div class="card">
+        <div class="card-header">
+          <h2>Create X</h2>
+        </div>
+        <div class="card-body">
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider"><h2>Needs X</h2></span>
+          </label>
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider"><h2>Needs Y</h2></span>
+          </label>
+          <h3 class="plus">+</h3>
+          <div class="critical"><h3>Critical</h3></div>
+        </div>
+        <div class="options">
+          <button id="editbtn">Edit</button>
+          <button id="deletebtn">Delete</button>
+        </div>
+      </div>
+    </main>
+    <script src="../scripts/navbarmobile.js"></script>
+  </body>
+</html>
