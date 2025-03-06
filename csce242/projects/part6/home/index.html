@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prototype Site</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div id="navbar">
+        <nav>
+          <ul>
+            <li><a href="../home/index.html">Home</a></li>
+            <li><a href="../plans/index.html">Plans</a></li>
+            <li><a href="../recent/index.html">Recent</a></li>
+            <li><a href="../account/index.html">Account</a></li>
+            <li><a href="../settings/index.html">Settings</a></li>
+          </ul>
+        </nav>
+      </div>
+      <button class="menu-button"><i class="arrow down"></i></button>
+    </header>
+    <main>
+      <div id="content-section">
+        <div id="content-columns">
+          <div class="column">
+            <div class="title">
+              <h1>To Do</h1>
+            </div>
+            <div class="card" onclick="location.href='card.html'">
+              <div class="card-header">
+                <h2>Create X</h2>
+              </div>
+              <div class="card-body">
+                <label class="switch">
+                  <input type="checkbox" />
+                  <span class="slider"><h2>Needs X</h2></span>
+                </label>
+                <label class="switch">
+                  <input type="checkbox" />
+                  <span class="slider"><h2>Needs Y</h2></span>
+                </label>
+                <h3 class="plus">+</h3>
+                <div class="critical"><h3>Critical</h3></div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <h2>Create Y</h2>
+              </div>
+              <div class="card-body">
+                <img src="../images/yFeature.png" alt="" />
+                <h3 class="plus">+</h3>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="title">
+              <h1>In Progress</h1>
+            </div>
+
+            <div class="card" onclick="location.href='card.html'">
+              <div class="card-header">
+                <h2>Create X v.2</h2>
+              </div>
+              <div class="card-body">
+                <label class="switch">
+                  <input type="checkbox" />
+                  <span class="slider"><h2>Needs X</h2></span>
+                </label>
+                <label class="switch">
+                  <input type="checkbox" />
+                  <span class="slider"><h2>Needs Y</h2></span>
+                </label>
+                <h3 class="plus">+</h3>
+                <div class="critical"><h3>Critical</h3></div>
+              </div>
+            </div>
+            <div class="card" onclick="location.href='card.html'">
+              <div class="card-header">
+                <h2>Create Y</h2>
+              </div>
+              <div class="card-body">
+                <label class="switch">
+                  <input type="checkbox" />
+                  <span class="slider"><h2>Needs X</h2></span>
+                </label>
+                <label class="switch">
+                  <input type="checkbox" />
+                  <span class="slider"><h2>Needs Y</h2></span>
+                </label>
+                <h3 class="plus">+</h3>
+                <div class="urgent"><h3>Urgent</h3></div>
+              </div>
+            </div>
+            <div class="card" onclick="location.href='card.html'">
+              <div class="card-header">
+                <h2>Create Z</h2>
+              </div>
+              <div class="card-body">
+                <label class="switch">
+                  <input type="checkbox" />
+                  <span class="slider"><h2>Needs X</h2></span>
+                </label>
+                <label class="switch">
+                  <input type="checkbox" />
+                  <span class="slider"><h2>Needs Y</h2></span>
+                </label>
+                <h3 class="plus">+</h3>
+                <div class="non-urgent"><h3>Not Urgent</h3></div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="title">
+              <h1>Done</h1>
+            </div>
+            <div class="card" onclick="location.href='card.html'">
+              <div class="card-header">
+                <h2>Create XYZ</h2>
+              </div>
+              <div class="card-body">
+                <label class="switch">
+                  <input type="checkbox" />
+                  <span class="slider"><h2>Needs X</h2></span>
+                </label>
+                <label class="switch">
+                  <input type="checkbox" />
+                  <span class="slider"><h2>Needs Y</h2></span>
+                </label>
+                <h3 class="plus">+</h3>
+                <div class="critical"><h3>Critical</h3></div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="title-empty"></div>
+            <div class="empty-card">
+              <a href=""><h3 class="plus">+</h3></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="footer-div">
+        <h1>Sample Board</h1>
+      </div>
+    </footer>
+    <script src="../scripts/navbarmobile.js"></script>
+    <script src="../scripts/populatedata.js"></script><!--  -->
+  </body>
+</html>
