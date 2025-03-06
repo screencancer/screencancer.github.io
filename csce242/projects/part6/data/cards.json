@@ -65,7 +65,7 @@
     {
       "id": 8,
       "image_source": "../images/Cards.png",
-      "title": "Sample Board 8",
+      "title": "JSON Name",
       "num_cards": 7,
       "num_categories": 3,
       "percent_done": "10%",
