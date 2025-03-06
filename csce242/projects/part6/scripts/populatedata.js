@@ -19,7 +19,6 @@ const getData = async () => {
 
     try {
         const response = await fetch(jsonUrl);
-        console.log(response);
         return await(response.json());
     } catch (error) {
         console.log(error);
@@ -29,7 +28,6 @@ const getData = async () => {
 const setData = async () => {
     let cards = await getData();
     cards.forEach((card) => {
-        console.log(card);
         getCard(card);
     });
 }
