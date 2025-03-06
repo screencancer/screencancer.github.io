@@ -59,7 +59,7 @@ const getCard = (card) => {
     let img = document.createElement("img");
     img.src = card.image_source;
 
-    innercardDiv.append(cardNum, categoryNum, percentDone, lastModified)
+    innercardDiv.append(cardNum, categoryNum, percentDone, lastModified);
     cardDiv.append(img);
     cardDiv.append(innercardDiv)
     
@@ -67,8 +67,8 @@ const getCard = (card) => {
     let title = document.createElement("h3");
     title.innerText = card.title;
 
-    plan.append(cardDiv)
-    plan.append(title)
+    plan.append(cardDiv);
+    plan.append(title);
     planRow.append(plan);
 }
 
