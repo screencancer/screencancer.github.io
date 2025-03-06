@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "image_source": "src",
+      "image_source": "../images/Cards.png",
       "title": "Sample Board",
       "num_cards": 6,
       "num_categories": 3,
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "image_source": "src",
+      "image_source": "../images/Cards.png",
       "title": "Sample Board 2",
       "num_cards": 7,
       "num_categories": 3,
@@ -19,7 +19,7 @@
     },
     {
       "id": 3,
-      "image_source": "src",
+      "image_source": "../images/Cards.png",
       "title": "Sample Board 3",
       "num_cards": 6,
       "num_categories": 3,
@@ -28,7 +28,7 @@
     },
     {
       "id": 4,
-      "image_source": "src",
+      "image_source": "../images/Cards.png",
       "title": "Sample Board 4",
       "num_cards": 7,
       "num_categories": 3,
@@ -37,7 +37,7 @@
     },
     {
       "id": 5,
-      "image_source": "src",
+      "image_source": "../images/Cards.png",
       "title": "Sample Board 5",
       "num_cards": 6,
       "num_categories": 3,
@@ -46,7 +46,7 @@
     },
     {
       "id": 6,
-      "image_source": "src",
+      "image_source": "../images/Cards.png",
       "title": "Sample Board 6",
       "num_cards": 7,
       "num_categories": 3,
@@ -55,7 +55,7 @@
     },
     {
       "id": 7,
-      "image_source": "src",
+      "image_source": "../images/Cards.png",
       "title": "Sample Board 7",
       "num_cards": 6,
       "num_categories": 3,
@@ -64,7 +64,7 @@
     },
     {
       "id": 8,
-      "image_source": "src",
+      "image_source": "../images/Cards.png",
       "title": "Sample Board 8",
       "num_cards": 7,
       "num_categories": 3,

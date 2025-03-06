@@ -76,7 +76,7 @@ body {
   flex-direction: column;
 }
 
-.plan-row {
+#plan-row {
   display: flex;
   flex-wrap: wrap;
 }
