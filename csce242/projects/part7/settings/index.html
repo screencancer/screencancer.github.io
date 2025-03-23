@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prototype Site</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="navbar">
+        <nav>
+          <ul>
+            <li><a href="../home/index.html">Home</a></li>
+            <li><a href="../plans/index.html">Plans</a></li>
+            <li><a href="../recent/index.html">Recent</a></li>
+            <li><a href="../account/index.html">Account</a></li>
+            <li><a href="../settings/index.html">Settings</a></li>
+          </ul>
+        </nav>
+      </div>
+      <button class="menu-button"><i class="arrow down"></i></button>
+    </header>
+    <main>
+      <div id="content-section">
+        <h1>Settings</h1>
+        <div class="settings">
+          <div class="setting">
+            <h3>Email: xxxxx@gmail.com</h3>
+          </div>
+          <div class="setting">
+            <h3>Username: xxxxx2</h3>
+          </div>
+          <div class="setting">
+            <h3>Reset Password</h3>
+            <button>Reset Password</button>
+          </div>
+          <div class="setting">
+            <h3>Light Mode:</h3>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+          <div class="setting">
+            <h3>Avatar:</h3>
+            <button>Choose File</button>
+            <h5>No file chosen</h5>
+          </div>
+          <div class="setting">
+            <h3>Language:</h3>
+            <select name="language" id="language-picker">
+              <option value="English">English</option>
+              <option value="Spanish">Spanish</option>
+            </select>
+          </div>
+          <div class="setting" id="socials">
+            <h3>Connect Socials: </h3>
+            <div class="social-connections">
+              <button ><i class="fab fa-google"></i> Connect Google</button>
+              <button ><i class="fab fa-microsoft"></i> Connect Microsoft</button>
+              <button ><i class="fab fa-facebook"></i> Connect Facebook</button>
+              <button ><i class="fab fa-twitter"></i> Connect Twitter</button>
+              <button ><i class="fab fa-github"></i> Connect GitHub</button>
+            </div>
+          </div>
+          <div class="setting" id="socials">
+            <h3>Currently Linked Socials </h3>
+            <div class="social-connections">
+              <p ><i class="fab fa-google"></i> Connected Google</p>
+              <p ><i class="fab fa-twitter"></i> Connected Twitter</p>
+              <p ><i class="fab fa-github"></i> Connected GitHub</p>
+            </div>
+          </div>
+          <div class="setting">
+            <form method="POST" id="form">
+
+                <h3>Contact us!</h3>
+                <input type="hidden" name="access_key" value="4554bff3-196d-40c0-85e6-f92ca5983fe1">
+
+                <span class="contact-field">
+                    <title>Name</title>
+                    <input type="text" name="name" placeholder="Name" required>
+                </span>
+
+                <span class="contact-field">
+                    <title>Email</title>
+                    <input type="text" name="name" placeholder="example@email.com" required>
+                </span>
+
+                <span class="contact-field">
+                    <title>Message</title>
+                    <textarea name="message" placeholder="Message goes here" required></textarea>
+                </span>
+                
+                
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                <button type="submit">Submit Form</button>
+
+                <div id="result"></div>
+
+            </form>
+        </div>
+        </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="footer-div"></div>
+    </footer>
+    <script src="../scripts/contactus.js"></script>
+    <script src="../scripts/navbarmobile.js"></script>
+  </body>
+</html>
