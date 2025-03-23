@@ -20,6 +20,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.embeded-content iframe{
+    width: 95%;
+  }
+
 header {
   margin-bottom: 50px;
 }
